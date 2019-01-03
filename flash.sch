@@ -1,0 +1,261 @@
+EESchema Schematic File Version 4
+LIBS:sbc030-fpga-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 7
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ecp5:LFE5U-12F-8BG256C U1
+U 7 1 5C294FEE
+P 2400 2600
+F 0 "U1" H 3131 1653 60  0000 L CNN
+F 1 "LFE5U-12F-8BG256C" H 3131 1547 60  0000 L CNN
+F 2 "Package_BGA:BGA-256_14.0x14.0mm_Layout16x16_P0.8mm_Ball0.45mm_Pad0.32mm_NSMD" H 2600 2650 60  0001 L CNN
+F 3 "" H 2400 2600 50  0001 C CNN
+	7    2400 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ecp5:LFE5U-12F-8BG256C U1
+U 8 1 5C29504D
+P 2400 1800
+F 0 "U1" H 2931 1703 60  0000 L CNN
+F 1 "LFE5U-12F-8BG256C" H 2931 1597 60  0000 L CNN
+F 2 "Package_BGA:BGA-256_14.0x14.0mm_Layout16x16_P0.8mm_Ball0.45mm_Pad0.32mm_NSMD" H 2600 1850 60  0001 L CNN
+F 3 "" H 2400 1800 50  0001 C CNN
+	8    2400 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L parts:W25Q128JVSIQ U2
+U 1 1 5C298D0C
+P 5100 3050
+F 0 "U2" H 5100 3467 50  0000 C CNN
+F 1 "W25Q128JVSIQ" H 5100 3376 50  0000 C CNN
+F 2 "Package_SO:SOIJ-8_5.3x5.3mm_P1.27mm" H 5550 3050 50  0001 C CNN
+F 3 "https://www.micron.com/~/media/documents/products/data-sheet/nor-flash/serial-nor/m25px/m25px32.pdf" H 5250 2950 50  0001 C CNN
+	1    5100 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0124
+U 1 1 5C299A93
+P 4600 3300
+F 0 "#PWR0124" H 4600 3050 50  0001 C CNN
+F 1 "GND" H 4605 3127 50  0000 C CNN
+F 2 "" H 4600 3300 50  0001 C CNN
+F 3 "" H 4600 3300 50  0001 C CNN
+	1    4600 3300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 3200 4600 3200
+Wire Wire Line
+	4600 3200 4600 3300
+Wire Wire Line
+	4700 3100 4600 3100
+Wire Wire Line
+	4600 3100 4600 3000
+Wire Wire Line
+	4700 2900 4600 2900
+Connection ~ 4600 2900
+Wire Wire Line
+	4600 2900 4600 2800
+Wire Wire Line
+	4700 3000 4600 3000
+Connection ~ 4600 3000
+Wire Wire Line
+	4600 3000 4600 2900
+Wire Wire Line
+	5800 2900 5500 2900
+Wire Wire Line
+	5800 3000 5500 3000
+Wire Wire Line
+	5800 3100 5500 3100
+Wire Wire Line
+	5800 3200 5500 3200
+Text Label 5800 3200 2    50   ~ 0
+CFG_CS
+Text Label 5800 2900 2    50   ~ 0
+CFG_DO
+Text Label 5800 3000 2    50   ~ 0
+CFG_CK
+Text Label 5800 3100 2    50   ~ 0
+CFG_DI
+$Comp
+L Connector_Generic:Conn_02x05_Odd_Even J2
+U 1 1 5C2A976D
+P 2600 1100
+F 0 "J2" H 2650 1517 50  0000 C CNN
+F 1 "JTAG" H 2650 1426 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x05_P2.54mm_Vertical" H 2600 1100 50  0001 C CNN
+F 3 "~" H 2600 1100 50  0001 C CNN
+	1    2600 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 900  2400 900 
+Wire Wire Line
+	2100 1000 2400 1000
+Wire Wire Line
+	2100 1100 2400 1100
+Wire Wire Line
+	2100 1300 2400 1300
+NoConn ~ 2400 1200
+NoConn ~ 2900 1200
+NoConn ~ 2900 1100
+$Comp
+L power:GND #PWR0125
+U 1 1 5C2B854B
+P 3000 1400
+F 0 "#PWR0125" H 3000 1150 50  0001 C CNN
+F 1 "GND" H 3005 1227 50  0000 C CNN
+F 2 "" H 3000 1400 50  0001 C CNN
+F 3 "" H 3000 1400 50  0001 C CNN
+	1    3000 1400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2900 1300 3000 1300
+Wire Wire Line
+	3000 1300 3000 1400
+Wire Wire Line
+	2900 900  3000 900 
+Wire Wire Line
+	3000 900  3000 1300
+Connection ~ 3000 1300
+$Comp
+L power:+3V3 #PWR0126
+U 1 1 5C2BFE9E
+P 3100 1000
+F 0 "#PWR0126" H 3100 850 50  0001 C CNN
+F 1 "+3V3" V 3115 1128 50  0000 L CNN
+F 2 "" H 3100 1000 50  0001 C CNN
+F 3 "" H 3100 1000 50  0001 C CNN
+	1    3100 1000
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3100 1000 2900 1000
+Text Label 2100 900  0    50   ~ 0
+TCK
+Text Label 2100 1000 0    50   ~ 0
+TDO
+Text Label 2100 1100 0    50   ~ 0
+TMS
+Text Label 2100 1300 0    50   ~ 0
+TDI
+Wire Wire Line
+	2100 1800 2400 1800
+Wire Wire Line
+	2100 2000 2400 2000
+Wire Wire Line
+	2100 2100 2400 2100
+Wire Wire Line
+	2100 1900 2400 1900
+Text Label 2100 1800 0    50   ~ 0
+TCK
+Text Label 2100 2000 0    50   ~ 0
+TDO
+Text Label 2100 2100 0    50   ~ 0
+TMS
+Text Label 2100 1900 0    50   ~ 0
+TDI
+Wire Wire Line
+	2100 3800 2400 3800
+Wire Wire Line
+	2100 2600 2400 2600
+Wire Wire Line
+	2100 3900 2400 3900
+Wire Wire Line
+	2100 4200 2400 4200
+Text Label 2100 4200 0    50   ~ 0
+CFG_CS
+Text Label 2100 3800 0    50   ~ 0
+CFG_DO
+Text Label 2100 2600 0    50   ~ 0
+CFG_CK
+Text Label 2100 3900 0    50   ~ 0
+CFG_DI
+$Comp
+L power:GND #PWR0129
+U 1 1 5C30211A
+P 1900 2700
+F 0 "#PWR0129" H 1900 2450 50  0001 C CNN
+F 1 "GND" V 1905 2572 50  0000 R CNN
+F 2 "" H 1900 2700 50  0001 C CNN
+F 3 "" H 1900 2700 50  0001 C CNN
+	1    1900 2700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:+3V3 #PWR0130
+U 1 1 5C3021A7
+P 2200 2800
+F 0 "#PWR0130" H 2200 2650 50  0001 C CNN
+F 1 "+3V3" V 2215 2928 50  0000 L CNN
+F 2 "" H 2200 2800 50  0001 C CNN
+F 3 "" H 2200 2800 50  0001 C CNN
+	1    2200 2800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0131
+U 1 1 5C3021F0
+P 1900 2900
+F 0 "#PWR0131" H 1900 2650 50  0001 C CNN
+F 1 "GND" V 1905 2772 50  0000 R CNN
+F 2 "" H 1900 2900 50  0001 C CNN
+F 3 "" H 1900 2900 50  0001 C CNN
+	1    1900 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1900 2900 2400 2900
+Wire Wire Line
+	1900 2700 2400 2700
+Wire Wire Line
+	2400 2800 2200 2800
+Wire Wire Line
+	2200 4600 2400 4600
+$Comp
+L power:+3V3 #PWR0123
+U 1 1 5C2999F6
+P 4600 2800
+F 0 "#PWR0123" H 4600 2650 50  0001 C CNN
+F 1 "+3V3" H 4615 2973 50  0000 C CNN
+F 2 "" H 4600 2800 50  0001 C CNN
+F 3 "" H 4600 2800 50  0001 C CNN
+	1    4600 2800
+	1    0    0    -1  
+$EndComp
+Text GLabel 2400 3200 0    50   Input ~ 0
+FTDI_TXD
+Text GLabel 2400 3300 0    50   Output ~ 0
+FTDI_RXD
+Text GLabel 2400 3400 0    50   Input ~ 0
+FTDI_RTS
+Text GLabel 2400 3500 0    50   Output ~ 0
+FTDI_CTS
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C33596E
+P 2200 4600
+F 0 "#PWR?" H 2200 4450 50  0001 C CNN
+F 1 "+3V3" V 2215 4728 50  0000 L CNN
+F 2 "" H 2200 4600 50  0001 C CNN
+F 3 "" H 2200 4600 50  0001 C CNN
+	1    2200 4600
+	0    -1   -1   0   
+$EndComp
+$EndSCHEMATC
