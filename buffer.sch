@@ -214,11 +214,11 @@ Text GLabel 4300 6100 0    50   Input ~ 0
 D22
 Text GLabel 4300 6200 0    50   Input ~ 0
 D23
-Text GLabel 4300 6700 0    50   Input ~ 0
+Text GLabel 4300 6900 0    50   Input ~ 0
 D24
 Text GLabel 4300 6800 0    50   Input ~ 0
 D25
-Text GLabel 4300 6900 0    50   Input ~ 0
+Text GLabel 4300 6700 0    50   Input ~ 0
 D26
 Text GLabel 4300 7000 0    50   Input ~ 0
 D27
@@ -497,11 +497,11 @@ Text GLabel 5700 6100 2    50   BiDi ~ 0
 LV_D22
 Text GLabel 5700 6200 2    50   BiDi ~ 0
 LV_D23
-Text GLabel 5700 6700 2    50   BiDi ~ 0
+Text GLabel 5700 6900 2    50   BiDi ~ 0
 LV_D24
 Text GLabel 5700 6800 2    50   BiDi ~ 0
 LV_D25
-Text GLabel 5700 6900 2    50   BiDi ~ 0
+Text GLabel 5700 6700 2    50   BiDi ~ 0
 LV_D26
 Text GLabel 5700 7000 2    50   BiDi ~ 0
 LV_D27
@@ -640,21 +640,21 @@ Wire Wire Line
 	8600 1600 8500 1600
 Wire Wire Line
 	8500 1600 8500 1700
-Text GLabel 7500 2900 0    50   BiDi ~ 0
+Text GLabel 9500 3800 0    50   BiDi ~ 0
 LV_D0
-Text GLabel 7500 3000 0    50   BiDi ~ 0
+Text GLabel 9500 3500 0    50   BiDi ~ 0
 LV_D1
-Text GLabel 7500 3100 0    50   BiDi ~ 0
+Text GLabel 9500 3700 0    50   BiDi ~ 0
 LV_D2
-Text GLabel 7500 3200 0    50   BiDi ~ 0
+Text GLabel 7500 5600 0    50   BiDi ~ 0
 LV_D3
-Text GLabel 7500 3300 0    50   BiDi ~ 0
+Text GLabel 9500 3300 0    50   BiDi ~ 0
 LV_D4
-Text GLabel 7500 3400 0    50   BiDi ~ 0
+Text GLabel 9500 3200 0    50   BiDi ~ 0
 LV_D5
-Text GLabel 7500 3500 0    50   BiDi ~ 0
+Text GLabel 9500 3400 0    50   BiDi ~ 0
 LV_D6
-Text GLabel 7500 3600 0    50   BiDi ~ 0
+Text GLabel 9500 2900 0    50   BiDi ~ 0
 LV_D7
 Text GLabel 7500 3700 0    50   BiDi ~ 0
 LV_D8
@@ -704,37 +704,37 @@ Text GLabel 11400 4300 0    50   BiDi ~ 0
 LV_D30
 Text GLabel 11400 4400 0    50   BiDi ~ 0
 LV_D31
-Text GLabel 9500 2900 0    50   BiDi ~ 0
+Text GLabel 9500 4500 0    50   BiDi ~ 0
 LV_A0
-Text GLabel 9500 3000 0    50   BiDi ~ 0
+Text GLabel 9500 4000 0    50   BiDi ~ 0
 LV_A1
-Text GLabel 9500 3100 0    50   BiDi ~ 0
+Text GLabel 9500 4600 0    50   BiDi ~ 0
 LV_A2
-Text GLabel 9500 3200 0    50   BiDi ~ 0
+Text GLabel 9500 5300 0    50   BiDi ~ 0
 LV_A3
-Text GLabel 9500 3300 0    50   BiDi ~ 0
+Text GLabel 9500 4700 0    50   BiDi ~ 0
 LV_A4
-Text GLabel 9500 3400 0    50   BiDi ~ 0
+Text GLabel 9500 4200 0    50   BiDi ~ 0
 LV_A5
-Text GLabel 9500 3500 0    50   BiDi ~ 0
+Text GLabel 9500 4300 0    50   BiDi ~ 0
 LV_A6
 Text GLabel 9500 3600 0    50   BiDi ~ 0
 LV_A7
-Text GLabel 9500 3700 0    50   BiDi ~ 0
+Text GLabel 9500 3000 0    50   BiDi ~ 0
 LV_A8
-Text GLabel 9500 3800 0    50   BiDi ~ 0
+Text GLabel 7500 6000 0    50   BiDi ~ 0
 LV_A9
-Text GLabel 9500 3900 0    50   BiDi ~ 0
+Text GLabel 7500 5900 0    50   BiDi ~ 0
 LV_A10
-Text GLabel 9500 4000 0    50   BiDi ~ 0
+Text GLabel 13700 3200 0    50   BiDi ~ 0
 LV_A11
-Text GLabel 9500 4100 0    50   BiDi ~ 0
+Text GLabel 13850 2700 0    50   BiDi ~ 0
 LV_A12
-Text GLabel 9500 4200 0    50   BiDi ~ 0
+Text GLabel 13550 2600 0    50   BiDi ~ 0
 LV_A13
-Text GLabel 9500 4300 0    50   BiDi ~ 0
+Text GLabel 13600 3350 0    50   BiDi ~ 0
 LV_A14
-Text GLabel 9500 4400 0    50   BiDi ~ 0
+Text GLabel 13600 3600 0    50   BiDi ~ 0
 LV_A15
 Text GLabel 4700 800  0    50   BiDi ~ 0
 LV_A16
@@ -791,8 +791,8 @@ LV_SIZ0
 Text GLabel 7150 1850 0    50   Output ~ 0
 LV_SIZ1
 Wire Wire Line
-	6750 850  7150 850 
-Text Label 6750 850  0    50   ~ 0
+	8950 4100 9500 4100
+Text Label 8950 4100 0    50   ~ 0
 AOE
 Wire Wire Line
 	6750 750  7150 750 
@@ -803,16 +803,16 @@ Wire Wire Line
 Text Label 6750 650  0    50   ~ 0
 COE
 Wire Wire Line
-	6750 950  7150 950 
-Text Label 6750 950  0    50   ~ 0
+	8950 5400 9500 5400
+Text Label 8950 5400 0    50   ~ 0
 ADIR
 Wire Wire Line
-	6750 1050 7150 1050
-Text Label 6750 1050 0    50   ~ 0
+	8950 3900 9500 3900
+Text Label 8950 3900 0    50   ~ 0
 DOE
 Wire Wire Line
-	6750 1150 7150 1150
-Text Label 6750 1150 0    50   ~ 0
+	8950 4400 9500 4400
+Text Label 8950 4400 0    50   ~ 0
 DDIR
 Wire Wire Line
 	11400 6100 11300 6100
