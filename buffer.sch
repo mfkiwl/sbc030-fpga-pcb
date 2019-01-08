@@ -371,19 +371,19 @@ Wire Wire Line
 	6100 5100 5700 5100
 Text Label 6100 5100 2    50   ~ 0
 COE
-Text GLabel 4300 4400 0    50   Input ~ 0
-RW
 Text GLabel 4300 5000 0    50   Input ~ 0
+RW
+Text GLabel 4300 4400 0    50   Input ~ 0
 SIZ1
-Text GLabel 4300 4900 0    50   Input ~ 0
+Text GLabel 4300 4500 0    50   Input ~ 0
 SIZ0
-Text GLabel 4300 4800 0    50   Input ~ 0
+Text GLabel 4300 4600 0    50   Input ~ 0
 DS
 Text GLabel 4300 4700 0    50   Input ~ 0
 AS
-Text GLabel 4300 4600 0    50   Input ~ 0
+Text GLabel 4300 4800 0    50   Input ~ 0
 FC1
-Text GLabel 4300 4500 0    50   Input ~ 0
+Text GLabel 4300 4900 0    50   Input ~ 0
 FC0
 Text GLabel 2600 1200 2    50   Output ~ 0
 LV_A0
@@ -513,19 +513,19 @@ Text GLabel 5700 7300 2    50   BiDi ~ 0
 LV_D30
 Text GLabel 5700 7400 2    50   BiDi ~ 0
 LV_D31
-Text GLabel 5700 4400 2    50   Output ~ 0
+Text GLabel 5700 5000 2    50   Output ~ 0
 LV_RW
-Text GLabel 5700 4500 2    50   Output ~ 0
+Text GLabel 5700 4900 2    50   Output ~ 0
 LV_FC0
-Text GLabel 5700 4600 2    50   Output ~ 0
+Text GLabel 5700 4800 2    50   Output ~ 0
 LV_FC1
 Text GLabel 5700 4700 2    50   Output ~ 0
 LV_AS
-Text GLabel 5700 4800 2    50   Output ~ 0
+Text GLabel 5700 4600 2    50   Output ~ 0
 LV_DS
-Text GLabel 5700 4900 2    50   Output ~ 0
+Text GLabel 5700 4500 2    50   Output ~ 0
 LV_SIZ0
-Text GLabel 5700 5000 2    50   Output ~ 0
+Text GLabel 5700 4400 2    50   Output ~ 0
 LV_SIZ1
 Wire Wire Line
 	9300 6200 9400 6200
@@ -609,21 +609,21 @@ Wire Wire Line
 	8600 1100 8500 1100
 Wire Wire Line
 	8500 1100 8500 1000
-Text GLabel 10000 1300 2    50   Output ~ 0
+Text GLabel 10000 1400 2    50   Output ~ 0
 DSACK1
-Text GLabel 10000 1500 2    50   Output ~ 0
-DSACK0
-Text GLabel 10000 1400 2    50   BiDi ~ 0
-RESET
 Text GLabel 10000 1200 2    50   Output ~ 0
+DSACK0
+Text GLabel 10000 1300 2    50   BiDi ~ 0
+RESET
+Text GLabel 10000 1500 2    50   Output ~ 0
 MIRQ
-Text GLabel 8600 1300 0    50   Input ~ 0
+Text GLabel 8600 1400 0    50   Input ~ 0
 LV_DSACK1
-Text GLabel 8600 1500 0    50   Input ~ 0
-LV_DSACK0
-Text GLabel 8600 1400 0    50   BiDi ~ 0
-LV_RESET
 Text GLabel 8600 1200 0    50   Input ~ 0
+LV_DSACK0
+Text GLabel 8600 1300 0    50   BiDi ~ 0
+LV_RESET
+Text GLabel 8600 1500 0    50   Input ~ 0
 LV_MIRQ
 $Comp
 L power:+3V3 #PWR0145
@@ -656,53 +656,53 @@ Text GLabel 9500 3400 0    50   BiDi ~ 0
 LV_D6
 Text GLabel 9500 2900 0    50   BiDi ~ 0
 LV_D7
-Text GLabel 7500 3700 0    50   BiDi ~ 0
-LV_D8
-Text GLabel 7500 3800 0    50   BiDi ~ 0
-LV_D9
-Text GLabel 7500 3900 0    50   BiDi ~ 0
-LV_D10
-Text GLabel 7500 4000 0    50   BiDi ~ 0
-LV_D11
-Text GLabel 7500 4100 0    50   BiDi ~ 0
-LV_D12
-Text GLabel 7500 4200 0    50   BiDi ~ 0
-LV_D13
-Text GLabel 7500 4300 0    50   BiDi ~ 0
-LV_D14
-Text GLabel 7500 4400 0    50   BiDi ~ 0
-LV_D15
-Text GLabel 7500 4500 0    50   BiDi ~ 0
-LV_D16
-Text GLabel 7500 4600 0    50   BiDi ~ 0
-LV_D17
-Text GLabel 7500 4700 0    50   BiDi ~ 0
-LV_D18
-Text GLabel 7500 4800 0    50   BiDi ~ 0
-LV_D19
-Text GLabel 7500 4900 0    50   BiDi ~ 0
-LV_D20
-Text GLabel 7500 5000 0    50   BiDi ~ 0
-LV_D21
 Text GLabel 7500 5100 0    50   BiDi ~ 0
+LV_D8
+Text GLabel 7500 5700 0    50   BiDi ~ 0
+LV_D9
+Text GLabel 7500 5000 0    50   BiDi ~ 0
+LV_D10
+Text GLabel 7500 4900 0    50   BiDi ~ 0
+LV_D11
+Text GLabel 7500 4500 0    50   BiDi ~ 0
+LV_D12
+Text GLabel 7500 4800 0    50   BiDi ~ 0
+LV_D13
+Text GLabel 7500 4400 0    50   BiDi ~ 0
+LV_D14
+Text GLabel 7500 4300 0    50   BiDi ~ 0
+LV_D15
+Text GLabel 7500 2900 0    50   BiDi ~ 0
+LV_D16
+Text GLabel 7500 3700 0    50   BiDi ~ 0
+LV_D17
+Text GLabel 7500 3000 0    50   BiDi ~ 0
+LV_D18
+Text GLabel 7500 3100 0    50   BiDi ~ 0
+LV_D19
+Text GLabel 4700 2600 0    50   BiDi ~ 0
+LV_D20
+Text GLabel 4700 3100 0    50   BiDi ~ 0
+LV_D21
+Text GLabel 4700 2800 0    50   BiDi ~ 0
 LV_D22
-Text GLabel 7500 5200 0    50   BiDi ~ 0
+Text GLabel 7500 3200 0    50   BiDi ~ 0
 LV_D23
-Text GLabel 11400 3700 0    50   BiDi ~ 0
+Text GLabel 4700 1400 0    50   BiDi ~ 0
 LV_D24
-Text GLabel 11400 3800 0    50   BiDi ~ 0
+Text GLabel 4700 2000 0    50   BiDi ~ 0
 LV_D25
-Text GLabel 11400 3900 0    50   BiDi ~ 0
+Text GLabel 4700 1700 0    50   BiDi ~ 0
 LV_D26
-Text GLabel 11400 4000 0    50   BiDi ~ 0
+Text GLabel 4700 1900 0    50   BiDi ~ 0
 LV_D27
-Text GLabel 11400 4100 0    50   BiDi ~ 0
+Text GLabel 4700 1300 0    50   BiDi ~ 0
 LV_D28
-Text GLabel 11400 4200 0    50   BiDi ~ 0
+Text GLabel 4700 1100 0    50   BiDi ~ 0
 LV_D29
-Text GLabel 11400 4300 0    50   BiDi ~ 0
+Text GLabel 4700 1500 0    50   BiDi ~ 0
 LV_D30
-Text GLabel 11400 4400 0    50   BiDi ~ 0
+Text GLabel 4700 1000 0    50   BiDi ~ 0
 LV_D31
 Text GLabel 9500 4500 0    50   BiDi ~ 0
 LV_A0
@@ -726,82 +726,52 @@ Text GLabel 7500 6000 0    50   BiDi ~ 0
 LV_A9
 Text GLabel 7500 5900 0    50   BiDi ~ 0
 LV_A10
-Text GLabel 13700 3200 0    50   BiDi ~ 0
+Text GLabel 9500 3100 0    50   BiDi ~ 0
 LV_A11
-Text GLabel 13850 2700 0    50   BiDi ~ 0
+Text GLabel 7500 5800 0    50   BiDi ~ 0
 LV_A12
-Text GLabel 13550 2600 0    50   BiDi ~ 0
+Text GLabel 7500 5500 0    50   BiDi ~ 0
 LV_A13
-Text GLabel 13600 3350 0    50   BiDi ~ 0
+Text GLabel 7500 5300 0    50   BiDi ~ 0
 LV_A14
-Text GLabel 13600 3600 0    50   BiDi ~ 0
+Text GLabel 7500 5400 0    50   BiDi ~ 0
 LV_A15
-Text GLabel 4700 800  0    50   BiDi ~ 0
+Text GLabel 7500 4100 0    50   BiDi ~ 0
 LV_A16
-Text GLabel 4700 900  0    50   BiDi ~ 0
+Text GLabel 7500 4700 0    50   BiDi ~ 0
 LV_A17
-Text GLabel 4700 1000 0    50   BiDi ~ 0
+Text GLabel 7500 4000 0    50   BiDi ~ 0
 LV_A18
-Text GLabel 4700 1100 0    50   BiDi ~ 0
+Text GLabel 7500 3900 0    50   BiDi ~ 0
 LV_A19
-Text GLabel 4700 1200 0    50   BiDi ~ 0
+Text GLabel 7500 3500 0    50   BiDi ~ 0
 LV_A20
-Text GLabel 4700 1300 0    50   BiDi ~ 0
+Text GLabel 7500 3800 0    50   BiDi ~ 0
 LV_A21
-Text GLabel 4700 1400 0    50   BiDi ~ 0
+Text GLabel 7500 3400 0    50   BiDi ~ 0
 LV_A22
-Text GLabel 4700 1500 0    50   BiDi ~ 0
+Text GLabel 7500 3300 0    50   BiDi ~ 0
 LV_A23
-Text GLabel 11400 2900 0    50   BiDi ~ 0
+Text GLabel 4700 2700 0    50   BiDi ~ 0
 LV_A24
-Text GLabel 11400 3000 0    50   BiDi ~ 0
+Text GLabel 4700 3000 0    50   BiDi ~ 0
 LV_A25
-Text GLabel 11400 3100 0    50   BiDi ~ 0
+Text GLabel 4700 2400 0    50   BiDi ~ 0
 LV_A26
-Text GLabel 11400 3200 0    50   BiDi ~ 0
+Text GLabel 4700 2900 0    50   BiDi ~ 0
 LV_A27
-Text GLabel 11400 3300 0    50   BiDi ~ 0
+Text GLabel 4700 2300 0    50   BiDi ~ 0
 LV_A28
-Text GLabel 11400 3400 0    50   BiDi ~ 0
+Text GLabel 4700 2100 0    50   BiDi ~ 0
 LV_A29
-Text GLabel 11400 3500 0    50   BiDi ~ 0
+Text GLabel 4700 1800 0    50   BiDi ~ 0
 LV_A30
-Text GLabel 11400 3600 0    50   BiDi ~ 0
+Text GLabel 4700 2500 0    50   BiDi ~ 0
 LV_A31
-Text GLabel 7150 2050 0    50   Output ~ 0
-LV_DSACK1
-Text GLabel 7150 2250 0    50   Output ~ 0
-LV_DSACK0
-Text GLabel 7150 2150 0    50   BiDi ~ 0
-LV_RESET
-Text GLabel 7150 1950 0    50   Output ~ 0
-LV_MIRQ
-Text GLabel 7150 1250 0    50   Output ~ 0
-LV_RW
-Text GLabel 7150 1350 0    50   Output ~ 0
-LV_FC0
-Text GLabel 7150 1450 0    50   Output ~ 0
-LV_FC1
-Text GLabel 7150 1550 0    50   Output ~ 0
-LV_AS
-Text GLabel 7150 1650 0    50   Output ~ 0
-LV_DS
-Text GLabel 7150 1750 0    50   Output ~ 0
-LV_SIZ0
-Text GLabel 7150 1850 0    50   Output ~ 0
-LV_SIZ1
 Wire Wire Line
 	8950 4100 9500 4100
 Text Label 8950 4100 0    50   ~ 0
 AOE
-Wire Wire Line
-	6750 750  7150 750 
-Text Label 6750 750  0    50   ~ 0
-CDIR
-Wire Wire Line
-	6750 650  7150 650 
-Text Label 6750 650  0    50   ~ 0
-COE
 Wire Wire Line
 	8950 5400 9500 5400
 Text Label 8950 5400 0    50   ~ 0
@@ -854,4 +824,39 @@ F 3 "" H 11200 6200 50  0001 C CNN
 	1    11200 6200
 	0    -1   -1   0   
 $EndComp
+Text GLabel 4700 1600 0    50   Output ~ 0
+LV_DSACK1
+Text GLabel 4700 1200 0    50   Output ~ 0
+LV_DSACK0
+Text GLabel 4700 800  0    50   BiDi ~ 0
+LV_RESET
+Text GLabel 4700 900  0    50   Output ~ 0
+LV_MIRQ
+Text GLabel 9500 4800 0    50   Output ~ 0
+LV_RW
+Text GLabel 9500 5000 0    50   Output ~ 0
+LV_FC0
+Text GLabel 9500 5700 0    50   Output ~ 0
+LV_FC1
+Text GLabel 9500 5100 0    50   Output ~ 0
+LV_AS
+Text GLabel 9500 5800 0    50   Output ~ 0
+LV_DS
+Text GLabel 9500 5500 0    50   Output ~ 0
+LV_SIZ0
+Text GLabel 9500 5900 0    50   Output ~ 0
+LV_SIZ1
+Wire Wire Line
+	8950 6000 9500 6000
+Text Label 8950 6000 0    50   ~ 0
+COE
+Wire Wire Line
+	8950 5600 9500 5600
+Text Label 8950 5600 0    50   ~ 0
+CDIR
+NoConn ~ 4700 2200
+NoConn ~ 7500 5200
+NoConn ~ 7500 4600
+NoConn ~ 7500 4200
+NoConn ~ 7500 3600
 $EndSCHEMATC
