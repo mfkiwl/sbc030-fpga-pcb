@@ -784,46 +784,6 @@ Wire Wire Line
 	8950 4400 9500 4400
 Text Label 8950 4400 0    50   ~ 0
 DDIR
-Wire Wire Line
-	11400 6100 11300 6100
-Wire Wire Line
-	11300 6100 11300 6200
-Wire Wire Line
-	11400 6200 11300 6200
-$Comp
-L ecp5:LFE5U-12F-8BG256C U?
-U 6 1 5C32A4F9
-P 11400 2900
-AR Path="/5C254FCC/5C32A4F9" Ref="U?"  Part="6" 
-AR Path="/5C35F270/5C32A4F9" Ref="U?"  Part="6" 
-AR Path="/5C32A4F9" Ref="U?"  Part="6" 
-AR Path="/5C2FB052/5C32A4F9" Ref="U?"  Part="6" 
-AR Path="/5C254FC9/5C32A4F9" Ref="U1"  Part="6" 
-F 0 "U1" H 12031 1303 60  0000 L CNN
-F 1 "LFE5U-12F-8BG256C" H 12031 1197 60  0000 L CNN
-F 2 "Package_BGA:BGA-256_14.0x14.0mm_Layout16x16_P0.8mm_Ball0.45mm_Pad0.32mm_NSMD" H 11600 2950 60  0001 L CNN
-F 3 "" H 11400 2900 50  0001 C CNN
-	6    11400 2900
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	11200 6200 11300 6200
-Connection ~ 11300 6200
-$Comp
-L power:+3V3 #PWR?
-U 1 1 5C32A502
-P 11200 6200
-AR Path="/5C35F270/5C32A502" Ref="#PWR?"  Part="1" 
-AR Path="/5C32A502" Ref="#PWR?"  Part="1" 
-AR Path="/5C2FB052/5C32A502" Ref="#PWR?"  Part="1" 
-AR Path="/5C254FC9/5C32A502" Ref="#PWR0166"  Part="1" 
-F 0 "#PWR0166" H 11200 6050 50  0001 C CNN
-F 1 "+3V3" V 11215 6328 50  0000 L CNN
-F 2 "" H 11200 6200 50  0001 C CNN
-F 3 "" H 11200 6200 50  0001 C CNN
-	1    11200 6200
-	0    -1   -1   0   
-$EndComp
 Text GLabel 4700 1600 0    50   Output ~ 0
 LV_DSACK1
 Text GLabel 4700 1200 0    50   Output ~ 0
@@ -859,4 +819,6 @@ NoConn ~ 7500 5200
 NoConn ~ 7500 4600
 NoConn ~ 7500 4200
 NoConn ~ 7500 3600
+NoConn ~ 9500 4900
+NoConn ~ 9500 5200
 $EndSCHEMATC

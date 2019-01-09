@@ -239,14 +239,6 @@ F 3 "" H 4600 2800 50  0001 C CNN
 	1    4600 2800
 	1    0    0    -1  
 $EndComp
-Text GLabel 2400 3200 0    50   Input ~ 0
-FTDI_TXD
-Text GLabel 2400 3300 0    50   Output ~ 0
-FTDI_RXD
-Text GLabel 2400 3400 0    50   Input ~ 0
-FTDI_RTS
-Text GLabel 2400 3500 0    50   Output ~ 0
-FTDI_CTS
 $Comp
 L power:+3V3 #PWR0167
 U 1 1 5C33596E
@@ -258,4 +250,12 @@ F 3 "" H 2200 4600 50  0001 C CNN
 	1    2200 4600
 	0    -1   -1   0   
 $EndComp
+Text GLabel 2400 3200 0    50   Input ~ 0
+FTDI_TXD
+Text GLabel 2400 3300 0    50   Output ~ 0
+FTDI_RXD
+Text GLabel 2400 3400 0    50   Input ~ 0
+FTDI_RTS
+Text GLabel 2400 3500 0    50   Output ~ 0
+FTDI_CTS
 $EndSCHEMATC
