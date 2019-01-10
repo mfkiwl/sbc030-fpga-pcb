@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name ecp5)(type Legacy)(uri ${KIPRJMOD}/../kicad-lib/ecp5.lib)(options "")(descr ""))
   (lib (name parts)(type Legacy)(uri ${KIPRJMOD}/../kicad-lib/parts.lib)(options "")(descr ""))
+  (lib (name hdmi-d)(type Legacy)(uri ${KIPRJMOD}/../kicad-lib/hdmi-d.lib)(options "")(descr ""))
 )
