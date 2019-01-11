@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 7
+Sheet 5 8
 Title ""
 Date ""
 Rev ""
@@ -728,17 +728,6 @@ F 3 "~" H 8850 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C11
-U 1 1 5C3D9514
-P 9250 3500
-F 0 "C11" H 9365 3546 50  0000 L CNN
-F 1 "22uF" H 9365 3455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric" H 9288 3350 50  0001 C CNN
-F 3 "~" H 9250 3500 50  0001 C CNN
-	1    9250 3500
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:C C14
 U 1 1 5C3D951A
 P 9650 3500
@@ -749,26 +738,8 @@ F 3 "~" H 9650 3500 50  0001 C CNN
 	1    9650 3500
 	1    0    0    -1  
 $EndComp
-$Comp
-L Device:C C17
-U 1 1 5C3D9520
-P 10100 3500
-F 0 "C17" H 10215 3546 50  0000 L CNN
-F 1 "2.2uF" H 10215 3455 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 10138 3350 50  0001 C CNN
-F 3 "~" H 10100 3500 50  0001 C CNN
-	1    10100 3500
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	8650 3700 8750 3700
-Wire Wire Line
-	10100 3700 10100 3650
-Wire Wire Line
-	9250 3650 9250 3700
-Connection ~ 9250 3700
-Wire Wire Line
-	9250 3700 9650 3700
 Wire Wire Line
 	9650 3650 9650 3700
 Connection ~ 9650 3700
@@ -778,16 +749,12 @@ Wire Wire Line
 	8850 3650 8850 3700
 Connection ~ 8850 3700
 Wire Wire Line
-	8850 3700 9250 3700
-Wire Wire Line
 	8750 3800 8750 3700
 Connection ~ 8750 3700
 Wire Wire Line
 	8750 3700 8850 3700
 Wire Wire Line
 	8250 3300 8850 3300
-Wire Wire Line
-	10100 3300 10100 3350
 Connection ~ 8250 3300
 Wire Wire Line
 	9650 3350 9650 3300
@@ -795,15 +762,8 @@ Connection ~ 9650 3300
 Wire Wire Line
 	9650 3300 10100 3300
 Wire Wire Line
-	9250 3350 9250 3300
-Connection ~ 9250 3300
-Wire Wire Line
-	9250 3300 9650 3300
-Wire Wire Line
 	8850 3350 8850 3300
 Connection ~ 8850 3300
-Wire Wire Line
-	8850 3300 9250 3300
 Wire Wire Line
 	10100 3300 10100 3200
 Connection ~ 10100 3300
@@ -1121,72 +1081,6 @@ F 3 "~" H 8500 6150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C29
-U 1 1 5C2DC744
-P 8900 6150
-F 0 "C29" H 9015 6196 50  0000 L CNN
-F 1 "22nF" H 9015 6105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 8938 6000 50  0001 C CNN
-F 3 "~" H 8900 6150 50  0001 C CNN
-	1    8900 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C30
-U 1 1 5C2DC74A
-P 9300 6150
-F 0 "C30" H 9415 6196 50  0000 L CNN
-F 1 "22nF" H 9415 6105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9338 6000 50  0001 C CNN
-F 3 "~" H 9300 6150 50  0001 C CNN
-	1    9300 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C31
-U 1 1 5C2E40D1
-P 9700 6150
-F 0 "C31" H 9815 6196 50  0000 L CNN
-F 1 "22nF" H 9815 6105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 9738 6000 50  0001 C CNN
-F 3 "~" H 9700 6150 50  0001 C CNN
-	1    9700 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C32
-U 1 1 5C2E40D7
-P 10100 6150
-F 0 "C32" H 10215 6196 50  0000 L CNN
-F 1 "22nF" H 10215 6105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 10138 6000 50  0001 C CNN
-F 3 "~" H 10100 6150 50  0001 C CNN
-	1    10100 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C33
-U 1 1 5C2E40DD
-P 10500 6150
-F 0 "C33" H 10615 6196 50  0000 L CNN
-F 1 "22nF" H 10615 6105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 10538 6000 50  0001 C CNN
-F 3 "~" H 10500 6150 50  0001 C CNN
-	1    10500 6150
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:C C34
-U 1 1 5C2E40E3
-P 10900 6150
-F 0 "C34" H 11015 6196 50  0000 L CNN
-F 1 "22nF" H 11015 6105 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0402_1005Metric" H 10938 6000 50  0001 C CNN
-F 3 "~" H 10900 6150 50  0001 C CNN
-	1    10900 6150
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3V3 #PWR0146
 U 1 1 5C2EB891
 P 6500 5800
@@ -1213,12 +1107,6 @@ Wire Wire Line
 Wire Wire Line
 	6500 5900 6900 5900
 Wire Wire Line
-	10900 5900 10900 6000
-Wire Wire Line
-	10900 6300 10900 6400
-Wire Wire Line
-	10900 6400 10500 6400
-Wire Wire Line
 	6500 6400 6500 6300
 Wire Wire Line
 	6900 6300 6900 6400
@@ -1242,64 +1130,10 @@ Wire Wire Line
 	8100 6400 7700 6400
 Wire Wire Line
 	8500 6300 8500 6400
-Connection ~ 8500 6400
 Wire Wire Line
 	8500 6400 8100 6400
 Wire Wire Line
-	8900 6300 8900 6400
-Connection ~ 8900 6400
-Wire Wire Line
-	8900 6400 8500 6400
-Wire Wire Line
-	9300 6300 9300 6400
-Connection ~ 9300 6400
-Wire Wire Line
-	9300 6400 8900 6400
-Wire Wire Line
-	9700 6300 9700 6400
-Connection ~ 9700 6400
-Wire Wire Line
-	9700 6400 9300 6400
-Wire Wire Line
-	10100 6300 10100 6400
-Connection ~ 10100 6400
-Wire Wire Line
-	10100 6400 9700 6400
-Wire Wire Line
-	10500 6300 10500 6400
-Connection ~ 10500 6400
-Wire Wire Line
-	10500 6400 10100 6400
-Wire Wire Line
-	10500 6000 10500 5900
-Connection ~ 10500 5900
-Wire Wire Line
-	10500 5900 10900 5900
-Wire Wire Line
-	10100 6000 10100 5900
-Connection ~ 10100 5900
-Wire Wire Line
-	10100 5900 10500 5900
-Wire Wire Line
-	9700 6000 9700 5900
-Connection ~ 9700 5900
-Wire Wire Line
-	9700 5900 10100 5900
-Wire Wire Line
-	9300 6000 9300 5900
-Connection ~ 9300 5900
-Wire Wire Line
-	9300 5900 9700 5900
-Wire Wire Line
-	8900 6000 8900 5900
-Connection ~ 8900 5900
-Wire Wire Line
-	8900 5900 9300 5900
-Wire Wire Line
 	8500 6000 8500 5900
-Connection ~ 8500 5900
-Wire Wire Line
-	8500 5900 8900 5900
 Wire Wire Line
 	8100 6000 8100 5900
 Connection ~ 8100 5900
@@ -1448,6 +1282,46 @@ F 1 "GND" H 7305 1327 50  0000 C CNN
 F 2 "" H 7300 1500 50  0001 C CNN
 F 3 "" H 7300 1500 50  0001 C CNN
 	1    7300 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3300 9250 3300
+Wire Wire Line
+	9250 3300 9650 3300
+Connection ~ 9250 3300
+Wire Wire Line
+	9250 3350 9250 3300
+Wire Wire Line
+	8850 3700 9250 3700
+Wire Wire Line
+	9250 3700 9650 3700
+Connection ~ 9250 3700
+Wire Wire Line
+	9250 3650 9250 3700
+$Comp
+L Device:C C11
+U 1 1 5C3D9514
+P 9250 3500
+F 0 "C11" H 9365 3546 50  0000 L CNN
+F 1 "22uF" H 9365 3455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 9288 3350 50  0001 C CNN
+F 3 "~" H 9250 3500 50  0001 C CNN
+	1    9250 3500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10100 3300 10100 3350
+Wire Wire Line
+	10100 3700 10100 3650
+$Comp
+L Device:C C17
+U 1 1 5C3D9520
+P 10100 3500
+F 0 "C17" H 10215 3546 50  0000 L CNN
+F 1 "2.2uF" H 10215 3455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 10138 3350 50  0001 C CNN
+F 3 "~" H 10100 3500 50  0001 C CNN
+	1    10100 3500
 	1    0    0    -1  
 $EndComp
 $EndSCHEMATC

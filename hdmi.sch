@@ -1,0 +1,354 @@
+EESchema Schematic File Version 4
+LIBS:sbc030-fpga-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 8
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	2000 4000 1900 4000
+Wire Wire Line
+	1900 4000 1900 4100
+Wire Wire Line
+	2000 4100 1900 4100
+$Comp
+L ecp5:LFE5U-12F-8BG256C U?
+U 4 1 5C3678BA
+P 2000 800
+AR Path="/5C254FCC/5C3678BA" Ref="U?"  Part="4" 
+AR Path="/5C35F270/5C3678BA" Ref="U?"  Part="4" 
+AR Path="/5C3678BA" Ref="U?"  Part="4" 
+AR Path="/5C3669B9/5C3678BA" Ref="U1"  Part="4" 
+F 0 "U1" H 2631 -797 60  0000 L CNN
+F 1 "LFE5U-12F-8BG256C" H 2631 -903 60  0000 L CNN
+F 2 "Package_BGA:BGA-256_14.0x14.0mm_Layout16x16_P0.8mm_Ball0.45mm_Pad0.32mm_NSMD" H 2200 850 60  0001 L CNN
+F 3 "" H 2000 800 50  0001 C CNN
+	4    2000 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1800 4100 1900 4100
+Connection ~ 1900 4100
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5C3678C3
+P 1800 4100
+AR Path="/5C35F270/5C3678C3" Ref="#PWR?"  Part="1" 
+AR Path="/5C3678C3" Ref="#PWR?"  Part="1" 
+AR Path="/5C3669B9/5C3678C3" Ref="#PWR0152"  Part="1" 
+F 0 "#PWR0152" H 1800 3950 50  0001 C CNN
+F 1 "+3V3" V 1815 4228 50  0000 L CNN
+F 2 "" H 1800 4100 50  0001 C CNN
+F 3 "" H 1800 4100 50  0001 C CNN
+	1    1800 4100
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0168
+U 1 1 5C36EDE8
+P 6200 3000
+F 0 "#PWR0168" H 6200 2850 50  0001 C CNN
+F 1 "+5V" H 6215 3173 50  0000 C CNN
+F 2 "" H 6200 3000 50  0001 C CNN
+F 3 "" H 6200 3000 50  0001 C CNN
+	1    6200 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4650 1300 5100 1300
+Wire Wire Line
+	4650 1600 5100 1600
+Wire Wire Line
+	4650 1800 5300 1800
+Wire Wire Line
+	4650 1900 5100 1900
+Wire Wire Line
+	4650 2200 5100 2200
+Text Label 4650 1300 0    50   ~ 0
+HDMI_D2+
+Text Label 4650 1500 0    50   ~ 0
+HDMI_D2-
+Text Label 4650 1600 0    50   ~ 0
+HDMI_D1+
+Text Label 4650 1800 0    50   ~ 0
+HDMI_D1-
+Text Label 4650 1900 0    50   ~ 0
+HDMI_D0+
+Text Label 4650 2100 0    50   ~ 0
+HDMI_D0-
+Text Label 4650 2200 0    50   ~ 0
+HDMI_CK+
+Text Label 4650 2400 0    50   ~ 0
+HDMI_CK-
+$Comp
+L Device:C_Small C31
+U 1 1 5C37419D
+P 5200 1300
+F 0 "C31" V 5250 1200 50  0000 C CNN
+F 1 "220pF" V 5250 1450 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5200 1300 50  0001 C CNN
+F 3 "~" H 5200 1300 50  0001 C CNN
+	1    5200 1300
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C37
+U 1 1 5C37622C
+P 5400 1500
+F 0 "C37" V 5450 1400 50  0000 C CNN
+F 1 "220pF" V 5450 1650 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5400 1500 50  0001 C CNN
+F 3 "~" H 5400 1500 50  0001 C CNN
+	1    5400 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C32
+U 1 1 5C376254
+P 5200 1600
+F 0 "C32" V 5250 1500 50  0000 C CNN
+F 1 "220pF" V 5250 1750 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5200 1600 50  0001 C CNN
+F 3 "~" H 5200 1600 50  0001 C CNN
+	1    5200 1600
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C38
+U 1 1 5C376272
+P 5400 1800
+F 0 "C38" V 5450 1700 50  0000 C CNN
+F 1 "220pF" V 5450 1950 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5400 1800 50  0001 C CNN
+F 3 "~" H 5400 1800 50  0001 C CNN
+	1    5400 1800
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C33
+U 1 1 5C37628E
+P 5200 1900
+F 0 "C33" V 5250 1800 50  0000 C CNN
+F 1 "220pF" V 5250 2050 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5200 1900 50  0001 C CNN
+F 3 "~" H 5200 1900 50  0001 C CNN
+	1    5200 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C39
+U 1 1 5C3762B0
+P 5400 2100
+F 0 "C39" V 5450 2000 50  0000 C CNN
+F 1 "220pF" V 5450 2250 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5400 2100 50  0001 C CNN
+F 3 "~" H 5400 2100 50  0001 C CNN
+	1    5400 2100
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C34
+U 1 1 5C3762D4
+P 5200 2200
+F 0 "C34" V 5250 2100 50  0000 C CNN
+F 1 "220pF" V 5250 2350 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5200 2200 50  0001 C CNN
+F 3 "~" H 5200 2200 50  0001 C CNN
+	1    5200 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C40
+U 1 1 5C3762FE
+P 5400 2400
+F 0 "C40" V 5450 2300 50  0000 C CNN
+F 1 "220pF" V 5450 2550 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5400 2400 50  0001 C CNN
+F 3 "~" H 5400 2400 50  0001 C CNN
+	1    5400 2400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 1300 6500 1300
+Wire Wire Line
+	5500 1500 6500 1500
+Wire Wire Line
+	5500 1800 6500 1800
+Wire Wire Line
+	5300 1900 6500 1900
+Wire Wire Line
+	5500 2100 6500 2100
+Wire Wire Line
+	5300 2200 6500 2200
+Wire Wire Line
+	5500 2400 6500 2400
+Wire Wire Line
+	4650 2100 5300 2100
+Wire Wire Line
+	4650 2400 5300 2400
+Wire Wire Line
+	1400 800  2000 800 
+Wire Wire Line
+	1400 900  2000 900 
+Wire Wire Line
+	1400 1000 2000 1000
+Wire Wire Line
+	1400 1100 2000 1100
+Wire Wire Line
+	1400 1600 2000 1600
+Wire Wire Line
+	1400 2000 2000 2000
+Text Label 1400 800  0    50   ~ 0
+HDMI_D2+
+Text Label 1400 900  0    50   ~ 0
+HDMI_D2-
+Text Label 1400 1000 0    50   ~ 0
+HDMI_D1+
+Text Label 1400 1100 0    50   ~ 0
+HDMI_D1-
+Text Label 1400 1600 0    50   ~ 0
+HDMI_D0+
+Text Label 1400 1700 0    50   ~ 0
+HDMI_D0-
+Text Label 1400 2000 0    50   ~ 0
+HDMI_CK+
+Text Label 1400 2100 0    50   ~ 0
+HDMI_CK-
+Wire Wire Line
+	1400 1700 2000 1700
+Wire Wire Line
+	1400 2100 2000 2100
+$Comp
+L hdmi-d:HDMI-D P1
+U 1 1 5C367F5E
+P 6700 2150
+F 0 "P1" H 6778 2191 50  0000 L CNN
+F 1 "HDMI-D" H 6778 2100 50  0000 L CNN
+F 2 "hdmi-d:HDMI-D" H 6700 2150 60  0001 C CNN
+F 3 "" H 6700 2150 60  0000 C CNN
+	1    6700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0169
+U 1 1 5C36B527
+P 6400 1200
+F 0 "#PWR0169" H 6400 950 50  0001 C CNN
+F 1 "GND" V 6405 1072 50  0000 R CNN
+F 2 "" H 6400 1200 50  0001 C CNN
+F 3 "" H 6400 1200 50  0001 C CNN
+	1    6400 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0170
+U 1 1 5C36D2EA
+P 6400 1400
+F 0 "#PWR0170" H 6400 1150 50  0001 C CNN
+F 1 "GND" V 6405 1272 50  0000 R CNN
+F 2 "" H 6400 1400 50  0001 C CNN
+F 3 "" H 6400 1400 50  0001 C CNN
+	1    6400 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0171
+U 1 1 5C36D309
+P 6400 1700
+F 0 "#PWR0171" H 6400 1450 50  0001 C CNN
+F 1 "GND" V 6405 1572 50  0000 R CNN
+F 2 "" H 6400 1700 50  0001 C CNN
+F 3 "" H 6400 1700 50  0001 C CNN
+	1    6400 1700
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0172
+U 1 1 5C36D328
+P 6400 2000
+F 0 "#PWR0172" H 6400 1750 50  0001 C CNN
+F 1 "GND" V 6405 1872 50  0000 R CNN
+F 2 "" H 6400 2000 50  0001 C CNN
+F 3 "" H 6400 2000 50  0001 C CNN
+	1    6400 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0173
+U 1 1 5C36D347
+P 6400 2300
+F 0 "#PWR0173" H 6400 2050 50  0001 C CNN
+F 1 "GND" V 6405 2172 50  0000 R CNN
+F 2 "" H 6400 2300 50  0001 C CNN
+F 3 "" H 6400 2300 50  0001 C CNN
+	1    6400 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L power:GND #PWR0174
+U 1 1 5C36D366
+P 6400 2900
+F 0 "#PWR0174" H 6400 2650 50  0001 C CNN
+F 1 "GND" V 6405 2772 50  0000 R CNN
+F 2 "" H 6400 2900 50  0001 C CNN
+F 3 "" H 6400 2900 50  0001 C CNN
+	1    6400 2900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6400 1200 6500 1200
+Wire Wire Line
+	6400 1400 6500 1400
+Wire Wire Line
+	6400 1700 6500 1700
+Wire Wire Line
+	6400 2000 6500 2000
+Wire Wire Line
+	6400 2300 6500 2300
+Wire Wire Line
+	6400 2900 6500 2900
+Wire Wire Line
+	6200 3000 6500 3000
+NoConn ~ 6500 3100
+NoConn ~ 6500 2600
+NoConn ~ 6500 2700
+NoConn ~ 6500 2800
+NoConn ~ 6500 2500
+Wire Wire Line
+	5300 1600 6500 1600
+Wire Wire Line
+	4650 1500 5300 1500
+Text Label 5800 1300 0    50   ~ 0
+D2+
+Text Label 5800 1500 0    50   ~ 0
+D2-
+Text Label 5800 1600 0    50   ~ 0
+D1+
+Text Label 5800 1800 0    50   ~ 0
+D1-
+Text Label 5800 1900 0    50   ~ 0
+D0+
+Text Label 5800 2100 0    50   ~ 0
+D0-
+Text Label 5800 2200 0    50   ~ 0
+CK+
+Text Label 5800 2400 0    50   ~ 0
+CK-
+NoConn ~ 2000 1400
+NoConn ~ 2000 1500
+NoConn ~ 2000 1800
+NoConn ~ 2000 1900
+NoConn ~ 2000 2200
+NoConn ~ 2000 3400
+NoConn ~ 2000 2300
+NoConn ~ 2000 2400
+$EndSCHEMATC

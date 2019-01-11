@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 4 7
+Sheet 4 8
 Title ""
 Date ""
 Rev ""
@@ -258,4 +258,13 @@ Text GLabel 2400 3400 0    50   Input ~ 0
 FTDI_RTS
 Text GLabel 2400 3500 0    50   Output ~ 0
 FTDI_CTS
+NoConn ~ 2400 3000
+NoConn ~ 2400 3100
+NoConn ~ 2400 3600
+NoConn ~ 2400 3700
+NoConn ~ 2400 4000
+NoConn ~ 2400 4100
+NoConn ~ 2400 4300
+NoConn ~ 2400 4400
+NoConn ~ 2400 4500
 $EndSCHEMATC
