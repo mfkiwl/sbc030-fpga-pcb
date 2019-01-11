@@ -305,7 +305,7 @@ Text GLabel 7200 3100 0    50   Input ~ 0
 SDRAM_A1
 Text GLabel 7200 3600 0    50   Input ~ 0
 SDRAM_A2
-Text GLabel 7200 3900 0    50   Input ~ 0
+Text GLabel 7200 3700 0    50   Input ~ 0
 SDRAM_A3
 Text GLabel 9500 2200 0    50   Input ~ 0
 SDRAM_A4
@@ -344,7 +344,6 @@ SDRAM_CAS
 Text GLabel 7200 4200 0    50   Input ~ 0
 SDRAM_RAS
 NoConn ~ 7200 3000
-NoConn ~ 7200 3700
 NoConn ~ 7200 3800
 NoConn ~ 7200 4000
 NoConn ~ 7200 4100
@@ -369,4 +368,5 @@ NoConn ~ 9500 4900
 NoConn ~ 9500 2300
 NoConn ~ 9500 2500
 NoConn ~ 7200 2100
+NoConn ~ 7200 3900
 $EndSCHEMATC
